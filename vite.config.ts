@@ -58,8 +58,8 @@ export default defineConfig(({ mode }) => {
           '@': path.resolve(__dirname, '.'),
         }
       },
-      // Netlify-specific optimizations
-      base: './',
+      // Vercel-specific optimizations
+      base: '/',
       publicDir: 'public'
     };
 });
